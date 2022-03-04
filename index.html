@@ -12,7 +12,7 @@
           <script src="./Style&&Logic/javascript/javascript.js"></script>
     <title>Ebenezer Cross Church</title>
 </head>
-<body>
+<body onload="closeNav()">
     <Nav id='Nav-bar'class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="info-Android">
 
@@ -20,17 +20,25 @@
         
         <div id="mySidebar" class="sidebar">
             <a class="closebtn" onclick="closeNav()">×</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
+            <a href="#">Church</a>
+            <a href="#">Extensions</a>
+            <a href="#">Construction</a>
+            <a href="#">Online</a>
+            <a href="#">Helping</a>
+            <a href="#">Media</a>
             <a href="#">Contact</a>
+            <a href=""><button class="btn btn-primary" >Donate</button></a>
+            
+            
           </div>
 
 
         <span class="ref"></span>
     </div>
+    <div id="imageLogo1">
        <a href=""><img src="./Style&&Logic/image/logo.jpg" alt="" ></a>
-        <ul>
+    </div> 
+       <ul>
             <li>Church</li>
             <li>Extensions</li>
             <li>Construction</li>
@@ -44,7 +52,7 @@
     </Nav>
     
 <header id="">
-    <h1>Ebenezer cross Church</h1>
+    <h1 id="Title1">Ebenezer cross Church</h1>
     <img src="./Style&&Logic/image/BACK1.JPG" alt="" id="imgFlue1" >
     
     

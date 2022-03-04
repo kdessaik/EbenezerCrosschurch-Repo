@@ -7,9 +7,12 @@
         display: none;
     }
     #Nav-bar img{
+        position: relative;
+         bottom: 20%;
         width:30%;
-        margin-left: 30%;
+        right: 0%;
         border-radius: 100%;
+        
     
     }
     header img{
@@ -52,10 +55,11 @@
         
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: rgb(255, 255, 255);
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
+        color: #ffa228;
         
       }
       
@@ -63,7 +67,7 @@
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181;
+        color: #f7ac21;
         display: block;
         transition: 0.3s;
       }
@@ -74,7 +78,7 @@
       
        .closebtn {
         width: 70%;
-        color: #000000;
+        color: rgb(241, 153, 52);
         position: absolute;
         top: 0%;
         
@@ -95,16 +99,26 @@
     padding: 16px;
   }
   .openbtn{
+      
       width: 50%;
       color: #ffa228;
       padding: 10%;
       margin: 10%;
 
   }
-  header{
-      
+  .info-Android button{
+      width: 200%;
   }
+  #mySidebar button{
+      width: 70%;
+  }
+  #mySidebar a{
+      font-family:Arial, Helvetica, sans-serif
+  }
+
   
+  
+
 @media only screen and (min-width:900px){
     .info-Android{
         display: none;
@@ -148,14 +162,7 @@
         justify-content: space-between;
         
     }
-    #Nav-bar img{
-        margin-top: 10%;
-        
-        width:50%;
-        margin-left: 20%;
-        border-radius: 100%;
     
-    }
     
     
     header{
@@ -266,7 +273,7 @@ li:hover{
 #Nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
     
 }
 
