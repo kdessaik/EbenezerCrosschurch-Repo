@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-*{
-
-    
-}
 
 @media only screen and (min-width:412px){
-    *{
-        
-            margin: 0;
-    
-        
-    }
+    *{margin: 0;}
     ul{
         display: none;
     }
@@ -44,29 +35,28 @@
 
       .openbtn{
           color: rgb(0, 0, 0);
-          text-align: left;
-          padding:2%;
-          margin:2%;
+          text-align: center;
+          
+        
           width: 10%;
+          margin: 10%;
           border-color: #080808;
-          margin-left: 10%
+          
           
           
       }
-      #Nav-bar button{
-          
-      };
+    
       .sidebar {
-        height: 100%;
-        width: 0;
+
         position: fixed;
-        z-index: 1;
+        
         top: 0;
         left: 0;
         background-color: #111;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
+        
       }
       
       .sidebar a {
@@ -82,18 +72,21 @@
         color: #f1f1f1;
       }
       
-      .sidebar .closebtn {
+       .closebtn {
+        width: 70%;
+        color: #000000;
         position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
+        top: 0%;
+        
+        font-size: 200%;
         margin-left: 50px;
       }
       
       
       
       .openbtn:hover {
-        background-color: rgb(255, 177, 32);
+        background-color: rgb(255, 202, 104);
+        
       }
 
 }
@@ -101,7 +94,15 @@
     transition: margin-left .5s;
     padding: 16px;
   }
+  .openbtn{
+      width: 50%;
+      color: #ffa228;
+      padding: 10%;
+      margin: 10%;
 
+  }
+  header
+  
 @media only screen and (min-width:900px){
     .info-Android{
         display: none;
