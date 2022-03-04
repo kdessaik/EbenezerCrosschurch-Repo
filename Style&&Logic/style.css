@@ -181,7 +181,7 @@
     #headerTop img{
         position:absolute;
         width: 15%;
-        bottom: 20%;
+        bottom: 40%;
         margin-left: 40%;
         border-radius: 30%;
     
@@ -294,7 +294,7 @@ header h1{
 #headerTop img{
     position:absolute;
     width: 15%;
-    bottom: 20%;
+    bottom: 30%;
     margin-left: 40%;
     border-radius: 30%;
 
