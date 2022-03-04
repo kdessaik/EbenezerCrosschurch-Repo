@@ -1,5 +1,245 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+
+    
+}
+
+@media only screen and (min-width:412px){
+    *{
+        
+            margin: 0;
+    
+        
+    }
+    ul{
+        display: none;
+    }
+    #Nav-bar img{
+        width:30%;
+        margin-left: 30%;
+        border-radius: 100%;
+    
+    }
+    header img{
+        
+        position:relative;
+        bottom: 10%;
+        width: 0%;
+        height: 300px;
+        
+        
+    }
+    .ref::before {
+        
+        position:absolute;
+        font-weight: bold;
+        color: rgb(255, 183, 27);
+        content: "Ebenezer Cross Church ";
+        font-size: 200%;
+        margin-left: 0%;
+        line-height: 100%
+
+      }
+
+      .openbtn{
+          color: rgb(0, 0, 0);
+          text-align: left;
+          padding:2%;
+          margin:2%;
+          width: 10%;
+          border-color: #080808;
+          margin-left: 10%
+          
+          
+      }
+      #Nav-bar button{
+          
+      };
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      
+      
+      .openbtn:hover {
+        background-color: rgb(255, 177, 32);
+      }
+
+}
+#All{
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+@media only screen and (min-width:900px){
+    .info-Android{
+        display: none;
+    }
+    .openbtn{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5%;
+        margin-left: 10%;
+        margin-right: 2%;
+        font-size: large;
+        list-style-type: none;
+        margin-top: 5%;
+        
+    }
+    .ref::before {
+        width: none;
+        position:absolute;
+        font-weight: bold;
+        color: rgb(255, 183, 27);
+        content: "Ebenezer Cross Church ";
+        font-size: 200%;
+        margin-left: 61%;
+        line-height: 100%
+    
+        ;}
+    li{
+        font-family:'League', Gothic,
+    }
+    li:hover{
+        color: rgb(238, 238, 67);
+        cursor:pointer
+    }
+    #Nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    #Nav-bar img{
+        margin-top: 10%;
+        
+        width:50%;
+        margin-left: 20%;
+        border-radius: 100%;
+    
+    }
+    
+    
+    header{
+        position: relative;
+    }
+    header img{
+    
+        position:relative;
+        bottom: 10%;
+        width: 100%;
+        height: 300px;
+        
+        
+    }
+    header h1{
+        position:relative;
+        margin-top: 2%;
+        margin-left: 25%;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        
+        
+    }
+    #headerTop img{
+        position:absolute;
+        width: 15%;
+        bottom: 20%;
+        margin-left: 40%;
+        border-radius: 30%;
+    
+    }
+    #imgFlue{
+        opacity: 0.15;
+        
+    }
+    .Border1 img{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .class-1{
+        margin-top: 2%;
+    }
+    .Border1{
+        position:relative;
+    
+    }
+    .Border1 h2{
+    
+        position: absolute;
+        top: 5%;
+        left: 30%;
+        bottom: 90%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 300%;
+    
+    }
+    #imgFlue1{
+        opacity: 0.5;
+    }
+    .Border1 p{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        background-color: aliceblue;
+        border-radius: 20%;
+        padding: 2%;
+    }
+    #diamond{
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    #section2{
+        
+        width: 70%;
+        margin: 2%;
+        border:1px solid #000000;
+        text-align: center;
+        padding-bottom: 10%;
+        box-shadow: 10px 10px 10px 10px #aaaaaa;
+        margin-left: 15%;
+    }
 
 ul{
     display: flex;
@@ -25,12 +265,6 @@ li:hover{
     flex-direction: row;
     justify-content: space-between;
     
-}
-#Nav-bar img{
-    width:30%;
-    margin-left: 50%;
-    border-radius: 100%;
-
 }
 
 
@@ -100,6 +334,8 @@ header h1{
     background-color: aliceblue;
     border-radius: 20%;
     padding: 2%;
+    width: 50%;
+
 }
 
 /* Hover Methods*/
@@ -221,6 +457,10 @@ button:active:before {
     box-shadow: 10px 10px 10px 10px #aaaaaa;
     margin-left: 15%;
 }
+
+    
+}
+
 /* */
 
 
