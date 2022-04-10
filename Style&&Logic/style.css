@@ -14,6 +14,9 @@
       
 
   }
+  #mySidebar{
+      position: absolute;
+  }
   .info-Android button{
       width: 200%;
   }
@@ -405,7 +408,6 @@ header h1{
         
         position:relative;
         bottom:150px;
-        width: ;
         height: 300px;
         
         
@@ -495,16 +497,46 @@ header h1{
       #headerTop img{
           display: none;
       }
-      #photo111{
-        
-        filter: blur(1px);
-      }
+      
      #header111{
          display: flex;
          flex-direction: column;
      } 
-
-
+     
+    #mySidebar{
+        
+        position:relative;
+        bottom: 10px;
+    }
+    #Title111{
+        position:absolute ;
+        display: inline;
+        left: 0%;
+        top: 15%;
+        width: 90%;
+        font-size: 50px;
+        color: #ffa600;
+        font-weight: bolder;
+        background-image: url(./image/BACK2.JPG);
+        background-size: 150%;
+        padding: 10%;
+        background-color: #ffa600;
+    }
+    #Title111>button{
+     border-radius: 20%;
+     color: #000000;
+     border: none;
+     background-color: #f7ac21;
+    }
+    #Title111>button:hover{
+        color: #fbfbfb;
+    }
+    #photo111{
+        position: inherit;
+        bottom: 10%;
+        width: 90%;
+        
+    }
    
       
 }
